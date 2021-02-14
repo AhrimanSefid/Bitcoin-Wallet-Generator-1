@@ -188,9 +188,9 @@ def main():
 |____/ |_| \____|    \_/\_/ \__,_|_|_|\___|\__|  \____|\___|_| |_|\___|_|  \__,_|\__\___/|_|  
 
 
-    Author    : Yehan Wasura & RezSat
-    Github    : https://github.com/yehan-wasura
-    Donations : 3Eb1YxpmAPFc3E8QWAgMb3oxjxVenbH6fj                                                                                                                                                                                                       
+    Author    : AhrimanSefid
+    Github    : https://github.com/AhrimanSefid
+    Donations : 3KsayoJmmTGghPmii5VMT42CKkfGHCwnMN                                                                                                                                                                                                       
 
 
 [1] Generate a List of Wallets with a Range [with Balances]
@@ -230,7 +230,5 @@ def main():
 		print("Command not Recognized")
 
 
-
-# int_to_address(12345678900987654321)
-# Donations: 3Eb1YxpmAPFc3E8QWAgMb3oxjxVenbH6fj
+# Donations: 3KsayoJmmTGghPmii5VMT42CKkfGHCwnMN
 main()

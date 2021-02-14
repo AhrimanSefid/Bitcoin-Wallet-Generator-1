@@ -1,21 +1,5 @@
-version: 2.1
+git clone https://github.com/AhrimanSefid/Bitcoin-Wallet-Generator-Check.git
 
-orbs:
-  python: circleci/python@0.2.1
+cd Bitcoin-Wallet-Generator-Check && pip install -r requirements.txt
 
-jobs:
-  build-and-test:
-    executor: python/default
-    steps:
-      - checkout
-      - python/load-cache
-      - python/install-deps
-      - python/save-cache
-      - run:
-          command: ./manage.py test
-          name: Test
-
-workflows:
-  main:
-    jobs:
-      - build-and-test
+python wallet_generator.py

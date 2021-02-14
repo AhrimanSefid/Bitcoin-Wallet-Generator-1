@@ -13,7 +13,9 @@ git clone https://github.com/AhrimanSefid/Bitcoin-Wallet-Generator-Check.git
 cd Bitcoin-Wallet-Generator-Check && pip install -r requirements.txt
 
 python wallet_generator.py
-  
+
+Starting Range :>  000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+Ending Range   :>
 ## Linux
   `python wallet_generator.py or use any python command which is compatible with your system`
   

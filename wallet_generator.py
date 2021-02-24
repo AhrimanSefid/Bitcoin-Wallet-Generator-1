@@ -12,15 +12,6 @@ from urllib.request import Request
 import satoshi
 import re
 
-except ImportError: 
-    import subprocess
-    subprocess.check_call(["python3", '-m', 'pip', 'install', 'blockcypher'])
-    subprocess.check_call(["python3", '-m', 'pip', 'install', 'moneywagon'])
-    subprocess.check_call(["python3", '-m', 'pip', 'install', 'satoshi'])
-    import blockcypher
-    import moneywagon
-    import satoshi
-
 PACKER = Struct('>QQQQ')
 
 
